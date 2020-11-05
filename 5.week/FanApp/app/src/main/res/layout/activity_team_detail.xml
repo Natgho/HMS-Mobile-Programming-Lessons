@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeamDetailActivity">
+
+    <View
+        android:id="@+id/viewColorFirst"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:background="@color/nigh_blue"
+        />
+
+
+    <View
+        android:id="@+id/viewColorSecond"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintWidth_percent="0.5"
+        tools:background="@color/orange"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+    <ImageView
+        android:id= "@+id/ivTeamLogo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@id/viewTeamInfo"
+        tools:src="@drawable/bsk"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View
+        android:id="@+id/viewTeamInfo"
+        android:layout_height="300dp"
+        android:layout_margin="16dp"
+        android:layout_width="0dp"
+        android:background="@drawable/team_info_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvTeamName"
+        android:layout_width="wrap_content"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/viewTeamInfo"
+        app:layout_constraintEnd_toEndOf="@id/viewTeamInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Başakşehir SK"
+        android:layout_marginTop="36dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvTeamPresident"
+        android:layout_width="wrap_content"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTeamName"
+        app:layout_constraintEnd_toEndOf="@id/viewTeamInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Göksel Gümüşdağ"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/tvTeamStadium"
+        android:layout_width="wrap_content"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tvTeamPresident"
+        app:layout_constraintEnd_toEndOf="@id/viewTeamInfo"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Fatih Terim Stadı"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
