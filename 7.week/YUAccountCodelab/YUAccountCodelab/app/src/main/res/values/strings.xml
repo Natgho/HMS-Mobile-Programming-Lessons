@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">YU Account Codelab</string>
+    <string name="please_login">Lütfen üye girişi yapınız</string>
+    <string name="login">Huawei ile giriş yap</string>
+    <string name="logout">Çıkış Yap</string>
+</resources>
