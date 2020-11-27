@@ -1,0 +1,14 @@
+{
+	"client":{
+		"appType":"1",
+		"cp_id":"890090000023105643",
+		"product_id":"736430079244716832",
+		"client_id":"504296139634246848",
+		"client_secret":"A7C6E6CB74FC3A5C7BAC6AE0F5C21E8097D309F9733D581B710EC9A44758F3CA",
+		"project_id":"736430079244716832",
+		"app_id":"103361679",
+		"api_key":"CgB6e3x9lI5oqWGMurYSnSQQ9WIPFf6WDKe88nzFs9WnyTtaE9dvcXx3hVVwBqrZbky0U08zieh19no8LiqVlJeq",
+		"package_name":"com.ylv.yalovapushdemo"
+	},
+	"configuration_version":"1.0"
+}
