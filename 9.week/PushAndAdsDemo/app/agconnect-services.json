@@ -1,0 +1,14 @@
+{
+	"client":{
+		"appType":"1",
+		"cp_id":"890090000023105643",
+		"product_id":"736430079244716580",
+		"client_id":"504228299686294144",
+		"client_secret":"FBA53D6F220C71A0B9A7AD8244C3C2B492715B2A216279F675CE5193B673E1D2",
+		"project_id":"736430079244716580",
+		"app_id":"103358995",
+		"api_key":"CgB6e3x9QATiUqaEHtIi4Z3YY78z0JfxJKb+PJf1cGTj9CClvk/NMb1V8jgzoANIXXMg8wB0Kza06uQwivmzrkh3",
+		"package_name":"com.tfkb.pushdemo"
+	},
+	"configuration_version":"1.0"
+}
