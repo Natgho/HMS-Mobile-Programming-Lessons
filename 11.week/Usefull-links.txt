@@ -1,0 +1,16 @@
+Stadium Rest Api:
+https://public.opendatasoft.com/explore/dataset/stadiums_nfl/api/
+
+Stadium Rest Api Endpoint:
+https://public.opendatasoft.com/api/records/1.0/search/?dataset=stadiums_nfl&q=&facet=subsector&facet=primary_ty&facet=name1&facet=city&facet=state&facet=conference&facet=division&facet=roof_type
+
+Gson Documentation:
+https://www.tutorialspoint.com/gson/index.htm
+
+Volley Documentation:
+https://developer.android.com/training/volley
+https://www.geeksforgeeks.org/volley-library-in-android/
+https://www.tutorialspoint.com/how-to-use-simple-volley-request-in-android
+
+Map Kit:
+https://developer.huawei.com/consumer/en/doc/development/HMSCore-Guides-V5/android-sdk-integrating-sdk-0000001061671869-V5
